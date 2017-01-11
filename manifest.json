@@ -1,0 +1,20 @@
+{
+  "name": "Currency Convertion Context Menus",
+  "description": "Allow to convert a currency on the fly",
+  "version": "0.1",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": ["main.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {
+      "default_icon" : "currency.png",
+      "default_title" : "Currency Convertion"
+   }
+}
